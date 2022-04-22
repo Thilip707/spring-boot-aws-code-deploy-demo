@@ -15,6 +15,6 @@ public class ApiController
     @GetMapping("api/health")
     public ResponseEntity<?> healthCheck()
     {
-        return ResponseEntity.ok("It works maestrowiz.");
+        return ResponseEntity.ok("welcome Maestrowiz.");
     }
 }
